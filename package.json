@@ -1,0 +1,18 @@
+{
+  "name": "screenshot-native",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@iamlizu/image-buffer": "^1.0.0",
+    "@nut-tree/libnut": "^2.1.2",
+    "buffer-to-data-url": "1.0.0",
+    "image-encode": "^1.3.1"
+  }
+}
